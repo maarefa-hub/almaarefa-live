@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>منصة المعرفة</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>منصة المعرفة</h1>
+
+  <section id="user"></section>
+  <section id="dashboard"></section>
+  <section id="projects"></section>
+  <section id="chat"></section>
+  <section id="files"></section>
+  <section id="payment"></section>
+  <section id="settings"></section>
+  <section id="system-settings"></section>
+  <section id="profile-settings"></section>
+  <section id="classification"></section>
+  <section id="user-classification"></section>
+
+  <script type="module">
+    import { initUser } from "./src/user/user.js";
+    import { initDashboard } from "./src/dashboard/dashboard.js";
+    import { initProjectModule } from "./src/project/project.js";
+    import { initChat } from "./src/chat/chat.js";
+    import { initFiles } from "./src/files/files.js";
+    import { initPayment } from "./src/payment/payment.js";
+    import { initSettings } from "./src/dashboard/settings/settings.js";
+    import { initSystemSettings } from "./src/settings/settings.js";
+    import { initProfileSettings } from "./src/settings/profile/profile.js";
+    import { initClassification } from "./src/classification/classification.js";
+    import { initUserClassification } from "./src/classification/user/userClassifier.js";
+
+    initUser();
+    initDashboard();
+    initProjectModule();
+    initChat();
+    initFiles();
+    initPayment();
+    initSettings();
+    initSystemSettings();
+    initProfileSettings();
+    initClassification("مشروع تعليمي");
+    initUserClassification({ role: "admin", activity: 80 });
+  </script>
+</body>
+</html>
