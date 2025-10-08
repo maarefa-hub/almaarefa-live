@@ -1,0 +1,4 @@
+export function renderClassification(result) {
+  const container = document.getElementById("classification");
+  container.innerHTML = `<p>📌 نوع التصنيف: ${result}</p>`;
+}
