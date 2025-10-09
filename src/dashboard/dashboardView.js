@@ -1,3 +1,5 @@
+📄 src/dashboard/dashboardView.js
+────────────────────────────────────
 export function renderDashboard(data) {
   const container = document.getElementById("dashboard");
   container.innerHTML = `
