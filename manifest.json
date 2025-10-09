@@ -1,0 +1,17 @@
+{
+  "name": "Almaarefa Live",
+  "short_name": "Almaarefa",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0077b6",
+  "orientation": "portrait",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
