@@ -1,3 +1,5 @@
+📄 src/dashboard/dashboard.js
+───────────────────────────────
 import { getDashboardData } from "./dashboardService.js";
 import { renderDashboard } from "./dashboardView.js";
 
