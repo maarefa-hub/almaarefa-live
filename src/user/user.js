@@ -1,3 +1,5 @@
+📄 src/user/user.js
+────────────────────
 import { getUser, updateUser } from "./userService.js";
 import { renderUserProfile } from "./userView.js";
 
