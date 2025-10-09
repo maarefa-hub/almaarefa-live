@@ -1,3 +1,5 @@
+📄 src/user/userView.js
+────────────────────────────
 export function renderUserProfile(user) {
   const container = document.getElementById("user");
   container.innerHTML = `
