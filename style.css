@@ -1,0 +1,68 @@
+body {
+  font-family: "Arial", sans-serif;
+  direction: rtl;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+  color: #212529;
+}
+
+h1 {
+  text-align: center;
+  color: #0077b6;
+  margin-bottom: 30px;
+}
+
+section {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #005f8e;
+}
+
+input, select {
+  padding: 8px;
+  margin: 8px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+}
+
+.chat-user {
+  background-color: #e3f2fd;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+  text-align: right;
+}
+
+.chat-bot {
+  background-color: #d1e7dd;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.project-item, .file-item {
+  padding: 8px;
+  margin: 5px 0;
+  border-bottom: 1px solid #dee2e6;
+}
